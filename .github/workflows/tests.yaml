@@ -1,6 +1,6 @@
 ---
 name: Integration tests with Kind and DevStack
-on: [pull_request]
+on: [push]
 jobs:
   lint:
     name: "Linters (go v${{ matrix.go-version }})"
